@@ -1,0 +1,41 @@
+name: custom
+description: Custom theme and layout for Hermes Agent
+
+colors:
+  # Terminal background. When set, the TUI paints the terminal with this color
+  # (OSC 11) and derives panel/status surfaces from it. Leave unset to keep the
+  # terminal's own background (e.g. transparent terminals).
+  # background: "#18181b"
+  ui_accent: "#aeb6f6"
+  banner_accent: "#cc6b4e"
+  ui_tool: "#f4f4f5"
+  ui_thinking: "#71717a"
+
+  banner_title: "#fafafa"
+  banner_text: "#e4e4e7"
+  ui_text: "#f4f4f5"
+  ui_label: "#f4f4f5"
+  banner_dim: "#adadb6ff"
+  banner_border: "#27272a"
+  ui_border: "#27272a"
+
+  ui_ok: "#10b981"
+  ui_warn: "#f59e0b"
+  ui_error: "#ef4444"
+
+  prompt: "#f4f4f5"
+  input_rule: "#27272a"
+  response_border: "#27272a"
+  status_bar_bg: "#141416"
+  status_bar_text: "#a1a1aa"
+  status_bar_good: "#10b981"
+  status_bar_warn: "#f59e0b"
+  status_bar_critical: "#ef4444"
+  session_label: "#fafafa"
+  session_border: "#27272a"
+
+branding:
+  agent_name: Custom
+  prompt_symbol: "❯"
+
+tool_prefix: "|"
